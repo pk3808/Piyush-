@@ -1,0 +1,414 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("jo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	
+}
+
+fieldset{
+	width: 26vw;
+	margin: 43% auto ;
+	margin-top: 8vh;
+	background-color: black;
+	opacity: 0.9;
+	color: navajowhite;
+	border-radius: 2%;
+	border: 3px solid ;
+	box-shadow:2px 2px 12px  goldenrod ;
+	border-color:  darkcyan  darkorange hotpink  greenyellow;
+	cursor: move;
+}
+
+h1{
+	font-family: sans-serif;
+	color: seagreen;
+	font-size: 24px;
+	margin-bottom: 20px;
+	
+}
+div{
+	font-size: 14px;
+	margin: 14px;
+	cursor: pointer;
+
+}
+label{
+	font-family: sans-serif;
+
+}
+input#one{
+	width:95%;
+	border: 2px seagreen ;
+	border-radius: 4px;
+	padding: 6px;
+	box-shadow: inset 1px 1px 4px seagreen;
+	margin-bottom: 12px;
+
+}
+input#four{
+	width: 55%;
+	font-family: impact;
+	padding: 4px;
+	font-size: 15px;
+    font-weight: 400;
+    border-radius:6px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+    border: 2px solid darkorange;
+    background-color: darkorange;
+    cursor: pointer;
+    opacity: 1;
+    
+}
+select#six{
+	
+	font-weight: 600;
+	background-color: lightgrey;
+	width: 95%; 
+	border-radius: 6px;
+	padding: 4px;
+	box-shadow: 1px 1px 2px seagreen;
+	margin-bottom: 12px;
+}
+input#five{
+	border-radius: 6px;
+	padding: 4px;
+	box-shadow: 1px 1px 2px seagreen;
+	width: 141px;
+	margin-bottom: 12px;
+}
+input#six{
+	width: 10px;
+	height: 10px;
+}
+select#six:hover{
+	background-color: seagreen;
+	transition: 1s;
+
+}
+input#five:hover{
+	background-color: seagreen;
+	transition: 1s;
+
+}
+
+
+input#four:active{
+	background-color: #15f4ee;
+}
+
+input#one:hover{
+	background-color: seagreen;
+
+}
+
+
+input#four:hover{
+	background-color: hotpink;
+	transition: 1s;
+}
+
+
+img#a{
+	width: 35px;
+
+}
+img#b{
+	width: 35px;
+
+}
+img#c{
+	width: 35px;
+
+}
+img#a{
+	border: 3px solid darkcyan ;
+	border-radius: 100%;
+	background-color: lightcyan;
+	box-shadow: 1px 1px 6px orangered;
+	justify-content: center;
+	align-items: center;
+
+
+}
+img#b{
+	border: 3px solid hotpink ;
+	border-radius: 100%;
+	background-color:  floralwhite;
+	box-shadow: 1px 1px 6px  hotpink;
+	justify-content: center;
+	align-items: center;
+
+
+}
+img#c{
+	border: 3px solid blue ;
+	border-radius: 100%;
+	background-color: lightcyan;
+	box-shadow: 1px 1px 6px orangered;
+	justify-content: center;
+	align-items: center;
+
+}
+img#a:hover{
+	background-color: deepskyblue;
+	transition: 1s;
+
+}
+img#b:hover{
+	background-color:black;
+	transition: 1s;
+}
+
+img#c:hover{
+	background-color: blue;
+	transition: 1s;
+}
+
+p.one{ 
+	width: 40%;
+	text-align: center;
+	margin-bottom: 10px ;
+	margin-left: 30% ; 
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-radius: 4px;
+	letter-spacing: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width: 660px){
+	fieldset{
+		width: 84vw;
+		font-size: 22px;
+		opacity: 0.9;
+		margin-top: 7vh;
+	}
+	p{
+		font-size: 15px;
+		font-weight: 800;
+	}
+	body{
+	background-image: url("f.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+    div{
+	font-size: 21px;
+	}
+	
+}
+@media screen  and (max-width: 780px) and (min-width:662px) {
+	body{
+	background-image: url("l.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+fieldset{
+		width:90vw;
+		opacity: 0.9;
+		margin-top: 8vh;
+	}
+div{
+      font-size: 32px;
+      padding-left: 12px;
+	}
+h1{
+
+font-size: 40px;  
+}
+input#five{
+	font-size: 28px;
+	width: 55%;
+	margin-bottom: 12px;
+}
+input#one{
+	font-size: 28px;
+	width: 95%;
+	margin-bottom: 12px;
+}
+input#four{
+	font-size: 28px;
+	width: 40%;
+}
+select#six{
+	font-size: 28px;
+	width: 95%;
+	margin-bottom: 12px;
+
+
+}
+img#a{
+	width: 50px;
+
+}
+   img#b{
+	width: 50px;
+
+}
+   img#c{
+	width: 50px;
+
+
+}
+p{
+	font-size: 36px;
+	margin-top: 12px;
+
+}
+}
+@media screen  and (max-width: 1024px) and (min-width:782px) {
+	body{
+	background-image: url("l.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+fieldset{
+		width: 80vw;
+		opacity: 0.9;
+		margin-top: 14vh;
+	}
+div{
+      font-size: 36px;
+      font-weight: 700;
+      padding-left: 12px;
+	}
+h1{
+
+font-size: 52px;
+margin-bottom: 34px;  
+margin-top: 24px;  
+}
+input#five{
+	font-size: 34px;
+	width: 55%;
+	margin-bottom: 18px;
+}
+input#one{
+	font-size: 34px;
+	width: 95%;
+	margin-bottom: 18px;
+}
+input#four{
+	font-size: 36px;
+	width: 40%;
+	margin-bottom: 24px;
+	margin-top: 26px;
+}
+
+select#six{
+	font-size: 34px;
+	width: 95%;
+	margin-bottom: 16px;
+
+}
+input#seven{
+	width: 46px;
+	height: 16px;
+}
+p{
+    width: 98%;
+
+	margin-top: 16px;
+}
+img#a{
+	width: 65px;
+
+}
+   img#b{
+	width: 65px;
+
+}
+   img#c{
+	width: 65px;
+
+}
+}
+@media screen  and (max-width: 1224px) and (min-width:1026px) {
+	body{
+	background-image: url("s.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+fieldset{
+		width: 48vw;
+		opacity: 0.9;
+		margin-top: 8vh;
+	}
+div{
+      font-size: 20px;
+      font-weight: 700;
+	}
+h1{
+
+font-size: 36px;
+margin-bottom: 14px;  
+margin-top: 20px;  
+}
+input#five{
+	font-size: 22px;
+	width: 55%;
+	margin-bottom: 10px;
+}
+input#one{
+	font-size: 22px;
+	width: 95%;
+	margin-bottom: 10px;
+}
+input#four{
+	font-size: 22px;
+	width: 40%;
+	margin-bottom: 12px;
+	margin-top: 10px;
+}
+
+select#six{
+	font-size: 22px;
+	width: 95%;
+	margin-bottom: 10px;
+
+}
+input#seven{
+	width: 46px;
+	height: 16px;
+}
+p{
+	margin-top: 12px;
+	font-size:26px;
+}
+img#a{
+	width: 56px;
+
+}
+   img#b{
+	width: 56px;
+
+}
+   img#c{
+	width: 56px;
+
+}
