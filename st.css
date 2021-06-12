@@ -203,8 +203,8 @@ p.one{
 
 @media screen  and (max-width: 660px){
 	fieldset{
-		width: 84vw;
-		font-size: 22px;
+		width: 90vw;
+		font-size: 20px;
 		opacity: 0.9;
 		margin-top: 7vh;
 	}
@@ -218,7 +218,7 @@ p.one{
 	background-repeat: no-repeat;
 }
     div{
-	font-size: 21px;
+	font-size: 20px;
 	}
 	
 }
